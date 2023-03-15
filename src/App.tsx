@@ -1,6 +1,7 @@
 import { useState } from 'react'
 import reactLogo from './assets/react.svg'
 import './App.css'
+import Nav from './components/nav'
 
 function App() {
   const [count, setCount] = useState(0)
@@ -28,6 +29,7 @@ function App() {
         Click on the Vite and React logos to learn more
       </p>
     </div>
+    // <Nav></Nav>
   )
 }
 
